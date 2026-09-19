@@ -1,1 +1,10 @@
-
+{
+  "name": "Akai MPD218",
+  "type": "MIDI",
+  "path": "Hardware",
+  "version": "0.1.0",
+  "description": "Chataigne module for the Akai Professional MPD218 MIDI pad controller.",
+  "url": "https://github.com/mcaglayan/MPD218-Chataigne-Module",
+  "hasInput": true,
+  "hasOutput": true
+}
