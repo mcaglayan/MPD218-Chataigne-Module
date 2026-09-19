@@ -6,5 +6,20 @@
   "description": "Chataigne module for the Akai Professional MPD218 MIDI pad controller.",
   "url": "https://github.com/mcaglayan/MPD218-Chataigne-Module",
   "hasInput": true,
-  "hasOutput": true
+  "hasOutput": true,
+  "values": {
+    "knobs": {
+      "niceName": "Knobs",
+      "type": "Container",
+      "children": {
+        "knob1": {
+          "niceName": "Knob 1",
+          "type": "Float",
+          "min": 0,
+          "max": 1,
+          "default": 0
+        }
+      }
+    }
+  }
 }
